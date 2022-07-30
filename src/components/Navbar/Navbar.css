@@ -5,7 +5,7 @@
     align-items: center;
     background: var(--color-black);
 
-    padding: 1rem;
+    padding: 1rem 2rem;
 }
 .app__navbar-logo {
     display: flex;
@@ -21,7 +21,8 @@
     flex: 1;
     display: flex;
     justify-content: center;
-
+    align-items: center;
+    
     list-style: none;
 }
 
@@ -84,7 +85,7 @@
     right: 1.25rem;
 }
 
-.app__navbar-mobile-links {
+.app__navbar-mobile_links {
     list-style: none;
 }
 
