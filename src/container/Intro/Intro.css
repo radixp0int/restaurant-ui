@@ -1,0 +1,24 @@
+.app__video {
+    height: 100vh;
+    position: relative;
+}
+
+.app__video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.app__video-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+}
+
+.app__video-overlay_circle:hover {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 0.125rem solid #fff;
+    cursor: pointer;
+}
