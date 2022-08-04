@@ -1,4 +1,5 @@
 .app__gallery {
+    display: flex;
     flex-direction: row;
 
     background: var(--color-black);
@@ -66,7 +67,7 @@
 }
 
 .app__gallery-images_card:hover img {
-    opacity: .35;
+    opacity: .45;
 }
 
 .app__gallery-images_card:hover .gallery__image-icon {
@@ -110,6 +111,10 @@
         min-width: 400px;
         height: 547px;
     }
+
+    .gallery__arrow-icon {
+        font-size: 3rem;
+    }
 }
 
 @media screen and (max-width: 1150px) {
@@ -141,5 +146,9 @@
     .app__gallery-images_card {
         min-width: 240px;
         height: 320px;
+    }
+
+    .gallery__arrow-icon {
+        font-size: 3rem;
     }
 }
