@@ -27,6 +27,7 @@
     flex-direction: row;
     max-width: 50%;
     position: relative;
+    z-index: 10;
 }
 
 .app__gallery-images_container {

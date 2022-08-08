@@ -30,6 +30,7 @@
 
 .app__aboutus-content_knife {
     margin: 2rem 4rem;
+    z-index: 2;
 }
 
 .app__aboutus-content_knife img {

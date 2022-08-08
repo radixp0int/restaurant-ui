@@ -17,7 +17,7 @@
     width: 620px;
     border: 1px solid var(--color-golden);
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-family: var(--font-base);
     color: var(--color-white);
     
@@ -44,6 +44,7 @@
 
     .app__newsletter-input input {
         margin: 0 0 2rem 0;
+        font-size: 1rem;
         width: 100%;
     }
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurant } from 'react-icons/md';
 
@@ -6,7 +6,7 @@ import images from '../../constants/images';
 import './Navbar.css';
 
 const Navbar = () => {
-  const [toggleMenu, setToggleMenu] = React.useState(false);
+  const [toggleMenu, setToggleMenu] = useState(false)
 
   return (
     <nav className='app__navbar'>
@@ -32,7 +32,11 @@ const Navbar = () => {
 
         {toggleMenu && (
           <div className='app__navbar-mobile_overlay flex__center slide-bottom'>
-            <MdOutlineRestaurant fontSize={27} className='overlay__close' onClick={() => setToggleMenu(false)} />
+            <MdOutlineRestaurant
+              fontSize={27}
+              className='overlay__close'
+              onClick={() => setToggleMenu(false)}
+            />
             <ul className='app__navbar-mobile_links'>
               <li className='p__opensans'><a href='#home'>Home</a></li>
               <li className='p__opensans'><a href='#about'>About</a></li>
