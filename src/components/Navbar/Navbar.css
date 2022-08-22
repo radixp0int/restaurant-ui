@@ -6,7 +6,7 @@
     background: var(--color-black);
     position: fixed;
     padding: 1rem 2rem;
-    z-index: 0;
+    z-index: 10;
 }
 .app__navbar-logo {
     display: flex;
